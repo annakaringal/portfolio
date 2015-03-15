@@ -46,3 +46,8 @@ thumbs/*
 # Exclude cache
 site/cache/*
 !site/cache/index.html
+
+### Sass ###
+.sass-cache
+*.css.map
+
