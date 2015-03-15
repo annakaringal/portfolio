@@ -27,7 +27,7 @@
 
 /* Navigation - Next/Prev links
 ----------------------------------------------- */
-.nextprev { padding: 1em 0; }
+.nextprev { padding: 2em; }
 .nextprev a { border: 0; }
 .nextprev .prev { float: left; }
 .nextprev .next { float: right; }
@@ -75,7 +75,7 @@ body { background-image: url("/assets/images/pineapples.png"); background-repeat
 
 /* Text blocks
 -------------------------------------------------- */
-.content_block { margin: 0em 2em; }
+.content_block { margin: 0em 2em; padding-left: 1em; }
 
 .text ul, .text ol { margin-left: 1em; }
 
@@ -121,7 +121,7 @@ h4 > a.view_all:hover { color: LightCoral; }
 
 /* About Page
 ----------------------------------------------- */
-.about_photo { float: left; padding: 1em; }
+.about_photo { float: left; padding: 0em 1em; }
 .about_photo > img { -webkit-clip-path: circle(50% at 50% 50%); clip-path: circle(50% at 50% 50%); }
 
 /*# sourceMappingURL=main.css.map */

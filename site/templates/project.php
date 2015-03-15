@@ -4,11 +4,11 @@
 
     <h3><?php echo $page->title()->html() ?></h3>
 
+    <div class="content_block">
     <ul class="meta cf">
       <li><?php echo $page->skill_areas() ?></li>
     </ul>
 
-    <div class="text">
       <?php echo $page->text()->kirbytext() ?>
 
       <?php foreach($page->images()->sortBy('sort', 'asc')->offset(1) as $image): ?>

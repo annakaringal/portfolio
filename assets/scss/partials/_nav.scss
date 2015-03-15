@@ -91,7 +91,7 @@
 ----------------------------------------------- */
 
 .nextprev {
-	padding:1em 0;
+	padding:$margin-med;
 	a {	border:0; }
 	.prev { float: left; }
 	.next { float: right; }
