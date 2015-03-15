@@ -1,0 +1,91 @@
+@import "base";
+
+
+/* Display project details in subcat
+----------------------------------------------- */
+.subcat {
+  background-color:white;
+  padding: 0.75em 2.5em;
+  margin-bottom:$margin-med;
+}
+
+.project_description {
+	  text-align: center;
+	  padding: 0.5em;
+	  margin-bottom: 0em !important;
+	  font-size:$tiny-font;
+
+	a {
+	  color:$dark-accent;
+	  border-bottom:none;
+	  font-size: $med-font;
+	  text-transform: uppercase;
+	}
+}
+
+/* Displays first n projects in given subcat
+----------------------------------------------- */
+.teaser {
+	margin-bottom:0 !important;
+	list-style: none;
+
+  	p {
+		line-height:1.4em;
+	  }
+	li {
+		list-style: none;
+
+		@media screen and (min-width: 50em){
+		    float: left;
+		    width: 30%;
+		    margin-left: 2%;
+
+		    &:first-child {
+		    	margin-left:0;
+		    }
+		}
+	}
+}
+
+
+/* Displays all projects in given subcat
+----------------------------------------------- */
+.all {
+	@extend .teaser;
+	@media screen and (min-width: 50em){
+		    li {
+		    	width: 23%;
+		    }
+		}
+}
+
+h4 > a.view_all {
+	font-weight:400;
+	color:$mid-accent;
+	font-style:italic;
+	padding-left:$margin-sml;
+	font-size:$tiny-font;
+	&:hover {
+		color:$light-accent;
+	}
+}
+
+/* Individual project detail pages
+----------------------------------------------- */
+
+.meta {
+  font-size:$tiny-font;
+  margin-bottom: $margin-med;
+
+  li {
+	  float: left;
+	  list-style: none;
+	  margin-right: $margin-med;
+	  color: DimGray;
+  	b {
+	  font-weight: 400;
+	  color: #000;
+	  padding-right: .25em;
+  	}
+  }
+}

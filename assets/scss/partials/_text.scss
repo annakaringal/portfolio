@@ -1,0 +1,38 @@
+@import "base";
+ 
+a {
+  color: $dark-accent;
+  text-decoration:none;
+  transition: color .3s, background .3s, border .3s;
+}
+
+h1 {
+  font-family: $header-font;
+  padding-left:$margin-med;
+  margin-bottom: 1em;
+  line-height: 1.25 em;
+  a {
+  	color:inherit;
+	border: 0 !important;
+  }
+
+  font-size:$xxlarge-font;
+  font-weight: 800;
+}
+h2 {
+  @extend h1;
+  font-size:$xlarge-font;
+  font-weight: 300;
+}
+h3 {
+  @extend h1;
+  font-size:$large-font;
+  font-weight:400;
+}
+
+h4 {
+  @extend h1;
+  font-size: $med-font;
+  font-weight: 600;
+  font-family: $body-font;
+}

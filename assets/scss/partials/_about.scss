@@ -1,0 +1,14 @@
+@import "base";
+
+/* About Page
+----------------------------------------------- */
+.about_photo {
+
+	float:left;
+	padding:1em;
+
+	>img {
+	  -webkit-clip-path: circle(50% at 50% 50%);
+	  clip-path: circle(50% at 50% 50%);
+	}
+}

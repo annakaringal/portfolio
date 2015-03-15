@@ -20,7 +20,7 @@
 <body>
 
   <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
+    <a  class="logo"href="<?php echo url() ?>">
       anna cristina karingal
     </a>
     <?php snippet('menu') ?>
