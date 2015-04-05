@@ -35,7 +35,12 @@
 	li {
 		list-style: none;
 
+		p {
+			margin-bottom: $margin-sml;
+		}
+
 		@media screen and (min-width: 50em){
+			margin-top:$margin-med;
 		    float: left;
 		    width: 30%;
 		    margin-left: 2%;
