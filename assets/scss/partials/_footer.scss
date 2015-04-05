@@ -3,16 +3,16 @@
 /* Footer
 ----------------------------------------------- */
 .footer {
-  	padding: 1em 0 3em;
-  	font-size: $tiny-font;
-  	text-transform: uppercase;
+  padding: 1em 0 3em;
+  font-size: $tiny-font;
+  text-transform: uppercase;
 
-	a {
-		&:hover {
-		  font-weight:700;
-		  color:$light-accent;
-		}
-	}
+  a {
+    &:hover {
+      font-weight:700;
+      color:$light-accent;
+    }
+  }
 }
 
 .copyright {

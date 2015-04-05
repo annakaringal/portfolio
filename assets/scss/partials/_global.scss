@@ -50,25 +50,25 @@ body {
 
 .main {
 
- 	font-size: $normal-font;
-  	padding-bottom: $margin-med;
+  font-size: $normal-font;
+  padding-bottom: $margin-med;
 
 	hr {
     margin: 3em 0;
     height: 2px;
     background: #ddd;
-	}
-	p, figure, ul, ol {
-		margin-bottom: $margin-med;
-	}
+  }
+  p, figure, ul, ol {
+    margin-bottom: $margin-med;
+  }
 	a {
-  		border-bottom: 1px dashed $dark-accent;
-		&:hover {
-			color:$mid-accent;
-  			border-color: $body-text-color;
-		}
+    border-bottom: 1px dashed $dark-accent;
 
-	}
+    &:hover {
+      color:$mid-accent;
+      border-color: $body-text-color;
+    }
+  }
 }
 
 

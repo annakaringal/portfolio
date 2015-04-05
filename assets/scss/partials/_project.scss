@@ -10,65 +10,65 @@
 }
 
 .project_description {
-	  text-align: center;
-	  padding: 0.5em;
-	  margin-bottom: 0em !important;
-	  font-size:$tiny-font;
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 0em !important;
+  font-size:$tiny-font;
 
-	a {
-	  color:$dark-accent;
-	  border-bottom:none;
-	  font-size: $med-font;
-	  text-transform: uppercase;
-	}
+  a {
+    color:$dark-accent;
+    border-bottom:none;
+    font-size: $med-font;
+    text-transform: uppercase;
+  }
 }
 
 /* Displays first n projects in given subcat
 ----------------------------------------------- */
 .teaser {
-	margin-bottom:0 !important;
-	list-style: none;
+  margin-bottom:0 !important;
+  list-style: none;
 
-  	p {
-		line-height:1.4em;
-	  }
-	li {
-		list-style: none;
+  p {
+    line-height:1.4em;
+  }
+  li {
+    list-style: none;
 
-		p {
-			margin-bottom: $margin-sml;
-		}
+    p {
+      margin-bottom: $margin-sml;
+    }
 
-		@media screen and (min-width: 50em){
-			margin-top:$margin-med;
-		    float: left;
-		    width: 30%;
-		    margin-left: 2%;
-		}
-	}
+    @media screen and (min-width: 50em){
+      margin-top:$margin-med;
+      float: left;
+      width: 30%;
+      margin-left: 2%;
+    }
+  }
 }
 
 
 /* Displays all projects in given subcat
 ----------------------------------------------- */
 .all {
-	@extend .teaser;
-	@media screen and (min-width: 50em){
-		    li {
-		    	width: 23%;
-		    }
-		}
+  @extend .teaser;
+  @media screen and (min-width: 50em){
+    li {
+      width: 23%;
+    }
+  }
 }
 
 h4 > a.view_all {
-	font-weight:400;
-	color:$mid-accent;
-	font-style:italic;
-	padding-left:$margin-sml;
-	font-size:$tiny-font;
-	&:hover {
-		color:$light-accent;
-	}
+  font-weight:400;
+  color:$mid-accent;
+  font-style:italic;
+  padding-left:$margin-sml;
+  font-size:$tiny-font;
+  &:hover {
+    color:$light-accent;
+  }
 }
 
 /* Individual project detail pages
@@ -79,14 +79,14 @@ h4 > a.view_all {
   margin-bottom: $margin-med;
 
   li {
-	  float: left;
-	  list-style: none;
-	  margin-right: $margin-med;
-	  color: DimGray;
-  	b {
-	  font-weight: 400;
-	  color: #000;
-	  padding-right: .25em;
-  	}
+    float: left;
+    list-style: none;
+    margin-right: $margin-med;
+    color: DimGray;
+    b {
+      font-weight: 400;
+      color: #000;
+      padding-right: .25em;
+    }
   }
 }

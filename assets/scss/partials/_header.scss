@@ -3,22 +3,21 @@
 /* Site-wide Header
 ----------------------------------------------- */
 header {
-	padding: 1em 3em 1.5em 2em;
+  padding: 1em 3em 1.5em 2em;
 }
 
 .logo {
+  float: left;
+  font-size: 2.5em;
+  font-family: $header-font;
+  line-height: 1.25em;
+  font-weight: 800;
+  margin-bottom: $margin-sml;
+  text-shadow:-3px -3px $light-accent;
 
-	float: left;
-	font-size: 2.5em;
-	font-family: $header-font;
-	line-height: 1.25em;
-	font-weight: 800;
-	margin-bottom: $margin-sml;
-	text-shadow:-3px -3px $light-accent;
+  > a { color: $dark-accent; }
 
-	> a { color: $dark-accent; }
-
-	@media screen and (min-width: 40em) {
-		display: block;
-	}
+  @media screen and (min-width: 40em) {
+    display: block;
+  }
 }
