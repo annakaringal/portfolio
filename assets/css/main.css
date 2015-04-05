@@ -7,121 +7,275 @@
 @import url("http://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400italic,700,400");
 @import url("http://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400italic,700,400");
 @import url("http://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400italic,700,400");
-.menu { text-transform: uppercase; padding-bottom: 2em; }
-.menu a { display: block; font-size: .9em; }
-.menu a:hover { color: LightCoral; text-decoration: none; }
-.menu .active { color: LightCoral; }
-.menu li { list-style: none; border-bottom: 1px solid DarkTurquoise; }
-.menu > li { position: relative; }
-.menu > li > a { padding: .35em 0; font-weight: 600; }
-@media screen and (min-width: 35em) { .menu { float: right; margin-right: -1em; padding-bottom: 0; }
-  .menu > li { float: left; border-bottom: none; }
-  .menu > li > a { padding: .35em 1em; border: 0; }
-  .menu > li:hover .submenu { display: block; } }
+.menu {
+  text-transform: uppercase;
+  padding-bottom: 2em; }
+  .menu a {
+    display: block;
+    font-size: .9em; }
+    .menu a:hover {
+      color: lightcoral;
+      text-decoration: none; }
+  .menu .active {
+    color: LightCoral; }
+  .menu li {
+    list-style: none;
+    border-bottom: 1px solid darkturquoise; }
+  .menu > li {
+    position: relative; }
+    .menu > li > a {
+      padding: .35em 0;
+      font-weight: 600; }
+  @media screen and (min-width: 35em) {
+    .menu {
+      float: right;
+      margin-right: -1em;
+      padding-bottom: 0; }
+      .menu > li {
+        float: left;
+        border-bottom: none; }
+        .menu > li > a {
+          padding: .35em 1em;
+          border: 0; }
+        .menu > li:hover .submenu {
+          display: block; } }
 
-.submenu { position: absolute; z-index: 1; display: none; left: 1em; }
-.submenu:before { position: absolute; z-index: -1; content: ''; top: -.5em; left: 0; border-top: .5em solid transparent; border-bottom: .5em solid transparent; border-left: .5em solid #222; }
-.submenu li { border-bottom: 1px solid #444; }
-.submenu a { padding: .5em 1.5em; font-size: .8em; font-weight: 300; color: #fff; background: #222; white-space: nowrap; }
-.submenu a:hover { background: LightCoral; color: MidnightBlue; }
+.submenu {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  left: 1em; }
+  .submenu:before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: -.5em;
+    left: 0;
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    border-left: .5em solid #222; }
+  .submenu li {
+    border-bottom: 1px solid #444; }
+  .submenu a {
+    padding: .5em 1.5em;
+    font-size: .8em;
+    font-weight: 300;
+    color: #fff;
+    background: #222;
+    white-space: nowrap; }
+    .submenu a:hover {
+      background: lightcoral;
+      color: midnightblue; }
 
 /* Navigation - Next/Prev links
 ----------------------------------------------- */
-.nextprev { padding: 2em; }
-.nextprev a { border: 0; }
-.nextprev .prev { float: left; }
-.nextprev .next { float: right; }
+.nextprev {
+  padding: 2em; }
+  .nextprev a {
+    border: 0; }
+  .nextprev .prev {
+    float: left; }
+  .nextprev .next {
+    float: right; }
 
 /* Site-wide Header
 ----------------------------------------------- */
-header { padding: 1em 3em 1.5em 2em; }
+header {
+  padding: 1em 3em 1.5em 2em; }
 
-.logo { float: left; font-size: 2.5em; font-family: "Playfair Display", serif; line-height: 1.25em; font-weight: 800; margin-bottom: 0.5em; text-shadow: -3px -3px LightCoral; }
-.logo > a { color: MidnightBlue; }
-@media screen and (min-width: 40em) { .logo { display: block; } }
+.logo {
+  float: left;
+  font-size: 2.5em;
+  font-family: "Playfair Display", serif;
+  line-height: 1.25em;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+  text-shadow: -3px -3px lightcoral; }
+  .logo > a {
+    color: midnightblue; }
+  @media screen and (min-width: 40em) {
+    .logo {
+      display: block; } }
 
 /* Footer
 ----------------------------------------------- */
-.footer { padding: 1em 0 3em; font-size: 0.85em; text-transform: uppercase; }
-.footer a:hover { font-weight: 700; color: LightCoral; }
+.footer {
+  padding: 1em 0 3em;
+  font-size: 0.85em;
+  text-transform: uppercase; }
+  .footer a:hover {
+    font-weight: 700;
+    color: lightcoral; }
 
-.copyright { text-align: center; }
+.copyright {
+  text-align: center; }
 
 /* Reset
 -------------------------------------------------- */
-*, *:before, *:after { margin: 0; padding: 0; border: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section, summary {
+  display: block; }
 
 /* Pix
 -------------------------------------------------- */
-img { display: block; max-width: 100%; }
+img {
+  display: block;
+  max-width: 100%; }
 
 /* Clearfix
 -------------------------------------------------- */
-.cf:after { content: ""; display: table; clear: both; }
+.cf:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /* Site
 -------------------------------------------------- */
-html { font-family: "Roboto", sans-serif; height: 101%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html {
+  font-family: "Roboto", sans-serif;
+  height: 101%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
 
-body { background-image: url("/assets/images/pineapples.png"); background-repeat: repeat-x; margin: 0 auto; font-size: 1.1em; line-height: 1.5em; background-color: #f5f5f5; color: #222; }
+body {
+  background-image: url("/assets/images/pineapples.png");
+  background-repeat: repeat-x;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  background-color: whitesmoke;
+  color: #222222; }
 
-.main { font-size: 1.1em; padding-bottom: 2em; }
-.main hr { margin: 2em 0; height: 2px; background: #ddd; }
-.main p, .main figure, .main ul, .main ol { margin-bottom: 2em; }
-.main a { border-bottom: 1px dashed MidnightBlue; }
-.main a:hover { color: DarkTurquoise; border-color: #222; }
+.main {
+  font-size: 1.1em;
+  padding-bottom: 2em; }
+  .main hr {
+    margin: 2em 0;
+    height: 2px;
+    background: #ddd; }
+  .main p, .main figure, .main ul, .main ol {
+    margin-bottom: 2em; }
+  .main a {
+    border-bottom: 1px dashed midnightblue; }
+    .main a:hover {
+      color: darkturquoise;
+      border-color: #222222; }
 
 /* Text blocks
 -------------------------------------------------- */
-.content_block { margin: 0em 2em; padding-left: 1em; }
+.content_block {
+  margin: 0em 2em;
+  padding-left: 1em; }
 
-.text ul, .text ol { margin-left: 1em; }
+.text ul, .text ol {
+  margin-left: 1em; }
 
-a { color: MidnightBlue; text-decoration: none; transition: color .3s, background .3s, border .3s; }
+a {
+  color: midnightblue;
+  text-decoration: none;
+  transition: color .3s, background .3s, border .3s; }
 
-h1, h2, h3, h4 { font-family: "Playfair Display", serif; padding-left: 2em; margin-bottom: 1em; line-height: 1.25 em; font-size: 2.5em; font-weight: 800; }
-h1 a, h2 a, h3 a, h4 a { color: inherit; border: 0 !important; }
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+  padding-left: 2em;
+  margin-bottom: 1em;
+  line-height: 1.25 em;
+  font-size: 2.5em;
+  font-weight: 800; }
+  h1 a, h2 a, h3 a, h4 a {
+    color: inherit;
+    border: 0 !important; }
 
-h2 { font-size: 2em; font-weight: 300; }
+h2 {
+  font-size: 2em;
+  font-weight: 300; }
 
-h3 { font-size: 1.5em; font-weight: 400; }
+h3 {
+  font-size: 1.5em;
+  font-weight: 400; }
 
-h4 { font-size: 1.125em; font-weight: 600; font-family: "Roboto", sans-serif; }
+h4 {
+  font-size: 1.125em;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif; }
 
 /* Page specific */
 /* Display project details in subcat
 ----------------------------------------------- */
-.subcat { background-color: white; padding: 0.75em 2.5em; margin-bottom: 2em; }
+.subcat {
+  background-color: white;
+  padding: 0.75em 2.5em;
+  margin-bottom: 2em; }
 
-.project_description { text-align: center; padding: 0.5em; margin-bottom: 0em !important; font-size: 0.85em; }
-.project_description a { color: MidnightBlue; border-bottom: none; font-size: 1.125em; text-transform: uppercase; }
+.project_description {
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 0em !important;
+  font-size: 0.85em; }
+  .project_description a {
+    color: midnightblue;
+    border-bottom: none;
+    font-size: 1.125em;
+    text-transform: uppercase; }
 
 /* Displays first n projects in given subcat
 ----------------------------------------------- */
-.teaser, .all { margin-bottom: 0 !important; list-style: none; }
-.teaser p, .all p { line-height: 1.4em; }
-.teaser li, .all li { list-style: none; }
-@media screen and (min-width: 50em) { .teaser li, .all li { float: left; width: 30%; margin-left: 2%; }
-  .teaser li:first-child, .all li:first-child { margin-left: 0; } }
+.teaser, .all {
+  margin-bottom: 0 !important;
+  list-style: none; }
+  .teaser p, .all p {
+    line-height: 1.4em; }
+  .teaser li, .all li {
+    list-style: none; }
+    @media screen and (min-width: 50em) {
+      .teaser li, .all li {
+        float: left;
+        width: 30%;
+        margin-left: 2%; } }
 
 /* Displays all projects in given subcat
 ----------------------------------------------- */
-@media screen and (min-width: 50em) { .all li { width: 23%; } }
+@media screen and (min-width: 50em) {
+  .all li {
+    width: 23%; } }
 
-h4 > a.view_all { font-weight: 400; color: DarkTurquoise; font-style: italic; padding-left: 0.5em; font-size: 0.85em; }
-h4 > a.view_all:hover { color: LightCoral; }
+h4 > a.view_all {
+  font-weight: 400;
+  color: darkturquoise;
+  font-style: italic;
+  padding-left: 0.5em;
+  font-size: 0.85em; }
+  h4 > a.view_all:hover {
+    color: lightcoral; }
 
 /* Individual project detail pages
 ----------------------------------------------- */
-.meta { font-size: 0.85em; margin-bottom: 2em; }
-.meta li { float: left; list-style: none; margin-right: 2em; color: DimGray; }
-.meta li b { font-weight: 400; color: #000; padding-right: .25em; }
+.meta {
+  font-size: 0.85em;
+  margin-bottom: 2em; }
+  .meta li {
+    float: left;
+    list-style: none;
+    margin-right: 2em;
+    color: DimGray; }
+    .meta li b {
+      font-weight: 400;
+      color: #000;
+      padding-right: .25em; }
 
 /* About Page
 ----------------------------------------------- */
-.about_photo { float: left; padding: 0em 1em; }
-.about_photo > img { -webkit-clip-path: circle(50% at 50% 50%); clip-path: circle(50% at 50% 50%); }
-
-/*# sourceMappingURL=main.css.map */
+.about_photo {
+  float: left;
+  padding: 0em 1em; }
+  .about_photo > img {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%); }
