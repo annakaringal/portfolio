@@ -1,7 +1,7 @@
 @import "base";
 // Fonts
 @import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
-@import url('assets/fonts/Futura-Medium.ttf');
+@import url('assets/fonts/FuturaStd-Bold.ttf');
 
 /* Reset
 -------------------------------------------------- */
@@ -59,6 +59,10 @@ body {
     margin: 3em 0;
     height: 2px;
     background: #ddd;
+  }
+  hr.invisible {
+    @extend hr;
+    background:$site-background-color;
   }
   p, figure, ul, ol {
     margin-bottom: $margin-med;

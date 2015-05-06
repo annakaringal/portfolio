@@ -11,7 +11,7 @@
 		</div>
 	</div>
 
-	<hr />
+	<hr class="invisible" />
 
 
 	<h2>latest projects</h2>

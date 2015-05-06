@@ -21,8 +21,9 @@ h1 {
 }
 h2 {
   @extend h1;
+  text-transform: uppercase;
   font-size:$xlarge-font;
-  font-weight: 300;
+  font-weight: bolder;
 }
 h3 {
   @extend h1;

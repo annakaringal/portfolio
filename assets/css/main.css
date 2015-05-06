@@ -1,7 +1,7 @@
 /* Navigation - Menu
 ----------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
-@import url("assets/fonts/Futura-Medium.ttf");
+@import url("assets/fonts/FuturaStd-Bold.ttf");
 .menu {
   text-transform: uppercase;
   padding-bottom: 1em; }
@@ -81,7 +81,7 @@ header {
 .logo {
   float: left;
   font-size: 3em;
-  font-family: "Futura-Medium", sans-serif;
+  font-family: "FuturaStd-Bold", sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   font-weight: 700;
@@ -151,10 +151,12 @@ body {
 .main {
   font-size: 1.05em;
   padding-bottom: 1em; }
-  .main hr {
+  .main hr, .main hr.invisible {
     margin: 3em 0;
     height: 2px;
     background: #ddd; }
+  .main hr.invisible {
+    background: #fff; }
   .main p, .main figure, .main ul, .main ol {
     margin-bottom: 1em; }
   .main a {
@@ -178,7 +180,7 @@ a {
   transition: color .3s, background .3s, border .3s; }
 
 h1, h2, h3, h4 {
-  font-family: "Futura-Medium", sans-serif;
+  font-family: "FuturaStd-Bold", sans-serif;
   padding-left: 1em;
   margin-bottom: 1em;
   line-height: 1.25 em;
@@ -189,15 +191,16 @@ h1, h2, h3, h4 {
     border: 0 !important; }
 
 h2 {
+  text-transform: uppercase;
   font-size: 2em;
-  font-weight: 300; }
+  font-weight: bolder; }
 
 h3 {
   font-size: 1.5em;
   font-weight: 400; }
 
 h4 {
-  font-size: 1.125em;
+  font-size: 1.3em;
   font-weight: 600;
   font-family: "Karla", sans-serif; }
 
@@ -217,7 +220,7 @@ h4 {
   .project_description a {
     color: MidnightBlue;
     border-bottom: none;
-    font-size: 1.125em;
+    font-size: 1.3em;
     text-transform: uppercase; }
 
 /* Displays first n projects in given subcat
