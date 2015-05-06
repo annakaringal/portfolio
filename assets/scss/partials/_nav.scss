@@ -12,16 +12,16 @@
     font-size:.9em;
 
     &:hover {
-      color: $light-accent;
+      color: $mid-accent;
       text-decoration: none;
     }
   }
 
-  .active { color: LightCoral; }
+  .active { color: $mid-accent; }
 
   li { 
     list-style: none;
-    border-bottom:1px solid $mid-accent
+    border-bottom:1px solid $mid-accent;
   }
 	
   > li {
@@ -79,8 +79,8 @@
     white-space: nowrap;
 
     &:hover {
-      background: $light-accent;
-      color: $dark-accent;
+      background: $mid-accent;
+      color: $light-accent;
     }
 
   }

@@ -8,10 +8,10 @@
     display: block;
     font-size: .9em; }
     .menu a:hover {
-      color: LightCoral;
+      color: DarkTurquoise;
       text-decoration: none; }
   .menu .active {
-    color: LightCoral; }
+    color: DarkTurquoise; }
   .menu li {
     list-style: none;
     border-bottom: 1px solid DarkTurquoise; }
@@ -58,8 +58,8 @@
     background: #222;
     white-space: nowrap; }
     .submenu a:hover {
-      background: LightCoral;
-      color: MidnightBlue; }
+      background: DarkTurquoise;
+      color: LightCoral; }
 
 /* Navigation - Next/Prev links
 ----------------------------------------------- */
@@ -79,7 +79,7 @@ header {
 
 .logo {
   float: left;
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-family: "BigJohn", sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
