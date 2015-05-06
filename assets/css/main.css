@@ -1,7 +1,7 @@
 /* Navigation - Menu
 ----------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
-@import url("assets/fonts/FuturaStd-Bold.ttf");
+@import url("/assets/fonts/FuturaStd-Bold.ttf");
 .menu {
   text-transform: uppercase;
   padding-bottom: 1em; }
