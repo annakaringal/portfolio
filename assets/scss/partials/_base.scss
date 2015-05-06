@@ -1,11 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Karla);
-@import url(assets/fonts/Futura-Medium.ttf);
 
-$header-font: "Futura", sans-serif;
+
+$header-font: "Futura-Medium", sans-serif; 
 $body-font: "Karla", sans-serif;
 
 // Colors; 
-$site-background-color: #fcfcfc;
+$site-background-color: #fff;
 $body-text-color: #222;
 $dark-accent: MidnightBlue;
 $mid-accent: DarkTurquoise;
@@ -21,5 +20,5 @@ $xxlarge-font: 2.5em;
 $xlarge-font: 2em;
 $large-font: 1.5em;
 $med-font: 1.125em;
-$normal-font: 1em;
+$normal-font: 1.05em;
 $tiny-font:0.85em;

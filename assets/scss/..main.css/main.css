@@ -1,5 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+@import url("assets/fonts/Futura-Medium.ttf");
 /* Navigation - Menu
 ----------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+@import url("assets/fonts/Futura-Medium.ttf");
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+@import url("assets/fonts/Futura-Medium.ttf");
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+@import url("assets/fonts/Futura-Medium.ttf");
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+@import url("assets/fonts/Futura-Medium.ttf");
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+@import url("assets/fonts/Futura-Medium.ttf");
 @import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
 @import url("assets/fonts/Futura-Medium.ttf");
 .menu {
@@ -80,14 +92,14 @@ header {
 
 .logo {
   float: left;
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: "Futura-Medium", sans-serif;
-  text-transform: uppercase;
   line-height: 1.25em;
-  font-weight: 700;
-  margin-bottom: 0.5em; }
+  font-weight: 800;
+  margin-bottom: 0.5em;
+  text-shadow: -3px -3px LightCoral; }
   .logo > a {
-    color: #222; }
+    color: MidnightBlue; }
   @media screen and (min-width: 40em) {
     .logo {
       display: block; } }
@@ -141,15 +153,16 @@ html {
   -ms-text-size-adjust: 100%; }
 
 body {
+  background-image: url("/assets/images/pineapples.png");
   background-repeat: repeat-x;
   margin: 0 auto;
-  font-size: 1.05em;
+  font-size: 1em;
   line-height: 1.5em;
   background-color: #fff;
   color: #222; }
 
 .main {
-  font-size: 1.05em;
+  font-size: 1em;
   padding-bottom: 1em; }
   .main hr {
     margin: 3em 0;
