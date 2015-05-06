@@ -8,14 +8,17 @@ header {
 
 .logo {
   float: left;
-  font-size: 3em;
+  font-size: 3.5em;
   font-family: $header-font;
   text-transform: uppercase;
   line-height: 1.25em;
   font-weight: 700;
   margin-bottom: $margin-sml;
+  color: $body-text-color;
 
-  > a { color: $body-text-color; }
+  &:hover {
+  color: $dark-accent;  
+  }
 
   @media screen and (min-width: 40em) {
     display: block;
