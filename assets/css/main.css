@@ -1,10 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
-@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
-@font-face {
-  font-family: "BigJohn";
-  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Navigation - Menu
 ----------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
 .menu {
   text-transform: uppercase;
   padding-bottom: 1em; }
@@ -76,9 +72,6 @@
   .nextprev .next {
     float: right; }
 
-@font-face {
-  font-family: "BigJohn";
-  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Site-wide Header
 ----------------------------------------------- */
 header {
@@ -99,9 +92,6 @@ header {
     .logo {
       display: block; } }
 
-@font-face {
-  font-family: "BigJohn";
-  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Footer
 ----------------------------------------------- */
 .footer {
@@ -115,9 +105,6 @@ header {
 .copyright {
   text-align: center; }
 
-@font-face {
-  font-family: "BigJohn";
-  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Reset
 -------------------------------------------------- */
 *, *:before, *:after {
@@ -187,9 +174,6 @@ body {
 .text ul, .text ol {
   margin-left: 1em; }
 
-@font-face {
-  font-family: "BigJohn";
-  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 a {
   color: MidnightBlue;
   text-decoration: none;
@@ -221,9 +205,6 @@ h4 {
   font-family: "Karla", sans-serif; }
 
 /* Page specific */
-@font-face {
-  font-family: "BigJohn";
-  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Display project details in subcat
 ----------------------------------------------- */
 .subcat {
@@ -290,9 +271,6 @@ h4 > a.view_all {
       color: #000;
       padding-right: .25em; }
 
-@font-face {
-  font-family: "BigJohn";
-  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* About Page
 ----------------------------------------------- */
 .about_photo {
