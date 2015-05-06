@@ -14,7 +14,7 @@
 	<hr class="invisible" />
 
 
-	<h2>latest projects</h2>
+	<h3>latest projects</h3>
     <?php snippet('featured_projects') ?>
 
 </main>
