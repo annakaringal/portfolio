@@ -21,7 +21,7 @@
 
   <header class="header cf" role="banner">
     <a  class="logo"href="<?php echo url() ?>">
-      anna cristina karingal
+      <?php echo $site->title() ?>
     </a>
     <?php snippet('menu') ?>
   </header>
