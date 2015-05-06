@@ -1,7 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+@font-face {
+  font-family: "BigJohn";
+  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Navigation - Menu
 ----------------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
-@import url("/assets/fonts/FuturaStd-Bold.ttf");
 .menu {
   text-transform: uppercase;
   padding-bottom: 1em; }
@@ -73,6 +75,9 @@
   .nextprev .next {
     float: right; }
 
+@font-face {
+  font-family: "BigJohn";
+  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Site-wide Header
 ----------------------------------------------- */
 header {
@@ -80,18 +85,22 @@ header {
 
 .logo {
   float: left;
-  font-size: 3em;
-  font-family: "FuturaStd-Bold", sans-serif;
+  font-size: 3.5em;
+  font-family: "BigJohn", sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   font-weight: 700;
-  margin-bottom: 0.5em; }
-  .logo > a {
-    color: #222; }
+  margin-bottom: 0.5em;
+  color: #222; }
+  .logo:hover {
+    color: MidnightBlue; }
   @media screen and (min-width: 40em) {
     .logo {
       display: block; } }
 
+@font-face {
+  font-family: "BigJohn";
+  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Footer
 ----------------------------------------------- */
 .footer {
@@ -105,6 +114,9 @@ header {
 .copyright {
   text-align: center; }
 
+@font-face {
+  font-family: "BigJohn";
+  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Reset
 -------------------------------------------------- */
 *, *:before, *:after {
@@ -174,13 +186,16 @@ body {
 .text ul, .text ol {
   margin-left: 1em; }
 
+@font-face {
+  font-family: "BigJohn";
+  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 a {
   color: MidnightBlue;
   text-decoration: none;
   transition: color .3s, background .3s, border .3s; }
 
 h1, h2, h3, h4 {
-  font-family: "FuturaStd-Bold", sans-serif;
+  font-family: "BigJohn", sans-serif;
   padding-left: 1em;
   margin-bottom: 1em;
   line-height: 1.25 em;
@@ -205,6 +220,9 @@ h4 {
   font-family: "Karla", sans-serif; }
 
 /* Page specific */
+@font-face {
+  font-family: "BigJohn";
+  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* Display project details in subcat
 ----------------------------------------------- */
 .subcat {
@@ -271,6 +289,9 @@ h4 > a.view_all {
       color: #000;
       padding-right: .25em; }
 
+@font-face {
+  font-family: "BigJohn";
+  src: url("/assets/fonts/BigJohn.otf") format("truetype"); }
 /* About Page
 ----------------------------------------------- */
 .about_photo {
