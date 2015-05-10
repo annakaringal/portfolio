@@ -15,7 +15,7 @@
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
   <link rel="icon" href="/favicon.png">
   <?php echo css('assets/css/main.css') ?>
-
+  <?php snippet('analytics') ?>
 </head>
 <body>
 
