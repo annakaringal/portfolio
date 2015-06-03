@@ -282,7 +282,7 @@ h4 > a.view_all {
 
 /* Fonts */
 @font-face {
-  font-family: 'big_johnregular';
+  font-family: 'BigJohn';
   src: url("/assets/fonts/bigjohn-webfont.eot");
   src: url("/assets/fonts/bigjohn-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bigjohn-webfont.woff2") format("woff2"), url("/assets/fonts/bigjohn-webfont.woff") format("woff"), url("/assets/fonts/bigjohn-webfont.ttf") format("truetype"), url("/assets/fonts/bigjohn-webfont.svg#big_johnregular") format("svg");
   font-weight: normal;
