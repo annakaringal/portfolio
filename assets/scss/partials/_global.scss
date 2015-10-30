@@ -49,6 +49,11 @@ body {
   color: $body-text-color;
 }
 
+header, main {
+  max-width: 1245px;
+  margin: 0 auto;
+}
+
 .main {
 
   font-size: $normal-font;
