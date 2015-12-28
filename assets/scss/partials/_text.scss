@@ -8,7 +8,6 @@ a {
 
 h1 {
   font-family: $header-font;
-  padding-left:$margin-med;
   margin-bottom: 1em;
   line-height: 1.25 em;
   a {
@@ -23,12 +22,14 @@ h2 {
   @extend h1;
   text-transform: uppercase;
   font-size:$xlarge-font;
+  padding-left:$margin-med;
   font-weight: bolder;
 }
 h3 {
   @extend h1;
   font-size:$large-font;
   font-weight:400;
+  padding-left:$margin-med;
   color:$dark-accent;
 }
 
@@ -37,4 +38,5 @@ h4 {
   font-size: $med-font;
   font-weight: 600;
   font-family: $body-font;
+  padding-left:none;
 }
