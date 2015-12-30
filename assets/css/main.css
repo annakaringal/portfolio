@@ -155,7 +155,7 @@ header, main {
   font-size: 1.05em;
   padding-bottom: 1em; }
   .main hr, .main hr.invisible {
-    margin: 3em 0;
+    margin: 1em 0;
     height: 2px;
     background: #ddd; }
   .main hr.invisible {
